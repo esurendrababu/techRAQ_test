@@ -54,7 +54,7 @@ login_frame.pack()
 
 # Logout 
 logout_frame = tk.Frame(root)
-tk.Label(logout_frame, text="You are logged in!").pack(pady=10)
+tk.Label(logout_frame, text="You are logged in!  welcome to your dash board").pack(pady=10)
 tk.Button(logout_frame, text="Logout", command=logout).pack()
 
 root.mainloop()
