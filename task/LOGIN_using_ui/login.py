@@ -22,7 +22,7 @@ def login():
     result = cursor.fetchone()
 
     if result:
-        messagebox.showinfo("Login Success", f"Welcome, {username}!")
+        messagebox.showinfo("Login Success", f"Welcome, {username}!, you can check your dash board now by clicking below button")
         login_frame.pack_forget()
         logout_frame.pack()
     else:
@@ -37,7 +37,7 @@ def logout():
 #Ui
 root = tk.Tk()
 root.title("Login System")
-root.geometry("300x200")
+root.geometry("350x250")
 
 # Login 
 login_frame = tk.Frame(root)
@@ -57,4 +57,5 @@ logout_frame = tk.Frame(root)
 tk.Label(logout_frame, text="You are logged in!  welcome to your dash board").pack(pady=10)
 tk.Button(logout_frame, text="Logout", command=logout).pack()
 
-root.mainloop()
+root.mainloop()                     
+
