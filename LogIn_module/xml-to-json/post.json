@@ -1,0 +1,200 @@
+[
+    {
+        "Products": {
+            "@xmlns:source": "http://apache.org/cocoon/source/1.0",
+            "ProductMPN": [
+                "AA001550",
+                "5706876"
+            ],
+            "ProductEAN": "5415N6620044",
+            "ProductName": "AUTO550 DUAL",
+            "IntroDescription": "While small in size (and price), the AUTO550 Dual dash cam offers plenty for drivers who like a great price, and bonus features like the 32GB Endurance SD card included and monthly safety camera updates including school zones, for free. It has two cameras \u00e2\u20ac\u201c front and rear which both record in 1080P Full HD, and the front has a 130\u00c2\u00b0 field of vision which makes it perfect for recording detail without distortion. And it comes with a super long 8m cable to connect the rear camera.",
+            "Overview": "The AUTO550 Dual records footage that is always GPS-tagged so you (and your insurer) will know the precise location and speed at the time of any accident. It also has a 3-Axis G-Sensor which means that it records the direction of impact. And if you are in an accident, event recording is instantly triggered so footage is automatically saved. While the 32GB Endurance SD card that comes with the device is perfect for most drivers, if you feel you need more storage, the Auto550 Dual can support a Micro SD card up to 128GB. It is installed with a super capacitor catering for fluctuations in cabin temperature and ensures reliable operation. This dash cam is also \u00e2\u20ac\u02dcSmart and Low Power Parking\u00e2\u20ac\u2122 compatible which means with the addition of a SmartBox (RRP $79 plus installation) as a continuous power source, it will continue to record any front motion or impact to the vehicle when the engine is switched off. Download, watch and share footage from the AUTO550 Dual via the MiVue\u00e2\u201e\u00a2 Manager desktop.",
+            "Feature": [
+                {
+                    "FeatureName": "2 Channel Dual Full HD 1080P Recording",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Rear_Camera.png",
+                    "FeatureDescription": "Recording your front view and back view, the front camera and rear camera record videos at 1080P Full HD simultaneously on H.264 compression so you can record and save more."
+                },
+                {
+                    "FeatureName": "Optimised Day/Night Recording",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Day_and_Night_Mode.png",
+                    "FeatureDescription": "Provides automatic optical adjustment with enhanced video quality to capture a wide range of details in challenging lighting (dark or bright) conditions."
+                },
+                {
+                    "FeatureName": "Monthly Safety Camera Updates",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Pre-installed_Safety_Camera_Data.png",
+                    "FeatureDescription": "Audible alerts of approaching fixed speed and red light cameras with free monthly safety camera updates for your MiVue\u00e2\u201e\u00a2. It can accept custom safety camera alerts and locations too. Click here for instructions on how to update your MiVue\u00e2\u201e\u00a2 and full T&Cs."
+                },
+                {
+                    "FeatureName": "Event Recording Mode",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Smart_Recording_Modes.png",
+                    "FeatureDescription": "When the MiVue\u00e2\u201e\u00a2 detects sudden changes in motion or an impact, the device instantly saves a protected video of the event for future analysis."
+                },
+                {
+                    "FeatureName": "GPS Tagged Video",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/GPS_Tracking.png",
+                    "FeatureDescription": "Record your position wherever you go. The built-in high sensitivity GPS receiver automatically records your driving information including location, direction and speed."
+                },
+                {
+                    "FeatureName": "3-Axis G-Sensor",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/G-sensor.png",
+                    "FeatureDescription": "The 3-Axis G-Sensor, in the event of a collision shows the direction the impact came from, providing more information on how an impact happened."
+                },
+                {
+                    "FeatureName": "Rotating Design",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Rotating_Design.png",
+                    "FeatureDescription": "The flexible rotating mount allows easy 360 degree adjustment to the angle you want to record, thus no more blind spots."
+                },
+                {
+                    "FeatureName": "Smart and Low Power Parking Modes",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Parking_mode.png",
+                    "FeatureDescription": "When used with the Smartbox accessory, the built-in motion and shock detection technology, Smart mode can automatically start recording if your car is hit while parked. When used in low power parking mode, you can be protected for longer as the MiVue\u00e2\u201e\u00a2 is in standby mode and wakes up when shock is detected.\n\n* SMARTBOX accessory required to provide constant power supply to your MiVue\u00e2\u201e\u00a2 device for use in Parking Mode."
+                },
+                {
+                    "FeatureName": "Wide Angle Glass Lens",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/Wide_Angle_Camera.png",
+                    "FeatureDescription": "A wide angle camera for capturing every detail on the road. The high quality glass lens lets more light in and delivers a sharper image."
+                },
+                {
+                    "FeatureName": "Driving Speed Display",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/SpeedLimit.png",
+                    "FeatureDescription": "Stay safe and know your current speed with the built-in speedometer."
+                },
+                {
+                    "FeatureName": "Micro SD Card Memory Expansion up to 128GB",
+                    "FeatureImgUrl": "https://www.navman.com.au/media/Image/Mitac/Features/128G_SD_Card.png",
+                    "FeatureDescription": "Compatible with a minimum of Class 10/UHS-1 designed for Dash camera recording up to 128GB microSD card. If you drive more frequently or use parking mode, for reliability over longer recording periods and optimal recording performance, Navman recommends an endurance rated memory card. If in doubt please refer to the microSD Card manufacturers warranty to ensure it covers the microSD card purchased is intended to be used for dash camera and loop recording devices. For more information on recommended and compatible MicroSD Card, please visit Navman website."
+                }
+            ],
+            "Specs": {
+                "SpecTopic": [
+                    {
+                        "@name": "Hardware",
+                        "item": [
+                            {
+                                "itemDescription": "Screen : 2\" LCD Screen"
+                            },
+                            {
+                                "itemDescription": "Field of View : 135\u00c2\u00b0 (Front) / 120\u00c2\u00b0 (Rear)"
+                            },
+                            {
+                                "itemDescription": "Product Dimensions : 51mm x 51m x 32mm"
+                            },
+                            {
+                                "itemDescription": "Product Weight : 70g (Front) / 30g (Rear)"
+                            },
+                            {
+                                "itemDescription": "Image Sensor : CMOS 2 Megapixel (Front & Rear)"
+                            },
+                            {
+                                "itemDescription": "Memory Expansion : Class 10/UHS-1/UHS-3 MicroSD up to 128GB"
+                            }
+                        ]
+                    },
+                    {
+                        "@name": "Warranty",
+                        "item": {
+                            "itemDescription": "2 Years"
+                        }
+                    }
+                ]
+            },
+            "InTheBox": {
+                "ITBTopic": {
+                    "@name": "Package Contents",
+                    "item": [
+                        {
+                            "itemDescription": "AUTO550 unit"
+                        },
+                        {
+                            "itemDescription": "Mini Rear Camera"
+                        },
+                        {
+                            "itemDescription": "8Mtr Rear Camera Connection Cable"
+                        },
+                        {
+                            "itemDescription": "Vehicle Power Adapter"
+                        },
+                        {
+                            "itemDescription": "32GB Endurance microSD Card"
+                        },
+                        {
+                            "itemDescription": "Windshield Mount"
+                        },
+                        {
+                            "itemDescription": "Cable Clips"
+                        },
+                        {
+                            "itemDescription": "Electrostatic Window Film"
+                        },
+                        {
+                            "itemDescription": "User Manual"
+                        }
+                    ]
+                }
+            },
+            "ProductGallery": {
+                "Asset": [
+                    {
+                        "@code": "",
+                        "@description": "Product Image",
+                        "@extension": "jpg",
+                        "@lastModified": "",
+                        "@locale": "global",
+                        "@number": "001",
+                        "@type": "",
+                        "#text": "https://www.navman.com.au/media/catalog/product/a/u/auto550dual_front_combo_32gbcard.png"
+                    },
+                    {
+                        "@code": "",
+                        "@description": "Product Image",
+                        "@extension": "jpg",
+                        "@lastModified": "",
+                        "@locale": "global",
+                        "@number": "002",
+                        "@type": "",
+                        "#text": "https://www.navman.com.au/media/catalog/product/_/0/_0000s_0003_auto550dual_rear_angle.png"
+                    },
+                    {
+                        "@code": "",
+                        "@description": "Product Image",
+                        "@extension": "jpg",
+                        "@lastModified": "",
+                        "@locale": "global",
+                        "@number": "003",
+                        "@type": "",
+                        "#text": "https://www.navman.com.au/media/catalog/product/_/0/_0000s_0000_auto550dual_rear.png"
+                    },
+                    {
+                        "@code": "",
+                        "@description": "Product Image",
+                        "@extension": "jpg",
+                        "@lastModified": "",
+                        "@locale": "global",
+                        "@number": "004",
+                        "@type": "",
+                        "#text": "https://www.navman.com.au/media/catalog/product/_/0/_0000s_0001_auto550dual_rear_cam2.png"
+                    },
+                    {
+                        "@code": "",
+                        "@description": "Product Image",
+                        "@extension": "jpg",
+                        "@lastModified": "",
+                        "@locale": "global",
+                        "@number": "005",
+                        "@type": "",
+                        "#text": "https://www.navman.com.au/media/catalog/product/_/0/_0000s_0002_auto550dual_rear_cam.png"
+                    }
+                ]
+            },
+            "CategoryName": "Dashcam",
+            "CategoryParent": null,
+            "CategoryCode": null,
+            "Video": {
+                "videoUrl": null
+            }
+        }
+    },
+    "get.json"
+]
