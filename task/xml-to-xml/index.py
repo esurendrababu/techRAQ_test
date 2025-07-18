@@ -1,37 +1,34 @@
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-# Load source XML
 tree = ET.parse('AUTO550DUAL_AU-AU.xml')
 root = tree.getroot()
 
-# Create new root element
 product = ET.Element('product', attrib={
     'language': 'au',
     'mpn': 'AA001550',
     'manufacturer_id': '262'
 })
 
-# Basic Information Section
 basic_info = ET.SubElement(product, 'basic_information', attrib={'md5_hash': ''})
 
 ET.SubElement(basic_info, 'title').text = root.findtext('ProductName')
 ET.SubElement(basic_info, 'description').text = root.findtext('IntroDescription')
 
-# MPNs
+
 mpns = ET.SubElement(basic_info, 'mpns')
 for mpn in root.findall('ProductMPN'):
     ET.SubElement(mpns, 'mpn').text = mpn.text
 
-# EANs
+
 eans = ET.SubElement(basic_info, 'eans')
 ET.SubElement(eans, 'ean').text = root.findtext('ProductEAN')
 
-# Categories
+
 cats = ET.SubElement(basic_info, 'categories')
 ET.SubElement(cats, 'category').text = root.findtext('CategoryName')
 
-# Features
+
 features = ET.SubElement(product, 'features', attrib={'md5_hash': ''})
 for idx, feat in enumerate(root.findall('Feature'), start=1):
     feature = ET.SubElement(features, 'feature', attrib={
@@ -51,7 +48,7 @@ for idx, feat in enumerate(root.findall('Feature'), start=1):
         'brand_style': 'featureimage'
     })
 
-# Overview
+
 ET.SubElement(features, 'feature', attrib={
     'order': str(idx + 1),
     'asset_order': str(idx + 1),
@@ -63,7 +60,7 @@ overview = features[-1]
 ET.SubElement(overview, 'title').text = root.findtext('Overview')
 ET.SubElement(overview, 'description').text = root.findtext('Overview')
 
-# Specifications
+
 specs = ET.SubElement(product, 'specifications', attrib={'md5_hash': ''})
 spec_idx = 1
 for topic in root.findall('Specs/SpecTopic'):
@@ -80,7 +77,6 @@ for topic in root.findall('Specs/SpecTopic'):
         })
         spec_idx += 1
 
-# In-the-box
 for idx, item in enumerate(root.findall('InTheBox/ITBTopic/item'), start=1):
     ET.SubElement(features, 'feature', attrib={
         'order': str(len(features) + idx),
@@ -93,7 +89,7 @@ for idx, item in enumerate(root.findall('InTheBox/ITBTopic/item'), start=1):
     ET.SubElement(pkg, 'title').text = 'Package Contents'
     ET.SubElement(pkg, 'description').text = item.findtext('itemDescription')
 
-# Product Images
+
 images = ET.SubElement(product, 'images', attrib={'md5_hash': ''})
 for idx, asset in enumerate(root.findall('ProductGallery/Asset'), start=1):
     ET.SubElement(images, 'image', attrib={
@@ -105,11 +101,11 @@ for idx, asset in enumerate(root.findall('ProductGallery/Asset'), start=1):
         'brand_style': f"AA001550_au_image_{idx}"
     })
 
-# Format and write output XML
+#output file formate
 def prettify(elem):
     return minidom.parseString(ET.tostring(elem)).toprettyxml(indent="  ")
 
 with open("converted_flix360.xml", "w", encoding="utf-8") as f:
     f.write(prettify(product))
 
-print("✅ XML converted and saved as 'converted_flix360.xml'")
+
