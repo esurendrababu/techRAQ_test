@@ -105,7 +105,10 @@ for idx, asset in enumerate(root.findall('ProductGallery/Asset'), start=1):
 def prettify(elem):
     return minidom.parseString(ET.tostring(elem)).toprettyxml(indent="  ")
 
-with open("converted_flix360.xml", "w", encoding="utf-8") as f:
+with open("newfile_converted.xml", "w", encoding="utf-8") as f:
     f.write(prettify(product))
+
+
+print("you xml file was successfully converted as new xml file with a name of newfile_converted.xml")
 
 
